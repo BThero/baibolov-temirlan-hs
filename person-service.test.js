@@ -26,6 +26,9 @@ describe('Validate PersonService class', () => {
 		service.save(new Person(24, 'Mariya'));
 		service.save(new Person(28, 'Iman'));
 		service.save(new Person(23, 'Ahlam'));
+
+		expect(service.getAll()).to();
+
 		service.save(new Person(25, 'Abrar'));
 		service.save(new Person(21, 'Nazar'));
 		service.save(new Person(23, 'Ansh'));
